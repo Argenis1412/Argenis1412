@@ -1,116 +1,88 @@
-## 🚀 About Me
-
-- 🔧 Specialized in **Python backend development**
-- ⚙️ Focused on building APIs that handle **real-world constraints: abuse, edge cases, and system reliability**
-- 🚀 Shipped production systems deployed on **Koyeb + Vercel**
-- 🧠 Currently deepening knowledge in:
-  - Authentication systems (JWT, OAuth2)
-  - Caching strategies (Redis)
-  - Cloud infrastructure fundamentals
-
----
-
-## 🛠️ Tech Stack
-
-**Backend**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=flat-square&logoColor=white)
-
-**Infrastructure & DevOps**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Koyeb](https://img.shields.io/badge/Koyeb-121212?style=flat-square&logo=koyeb&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-**Testing & Quality**
-
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-
----
-
-## 🧩 Key Concepts I Work With
-
-- Scalable REST API design under **real usage constraints**
-- Security hardening:
-  - Rate limiting
-  - Anti-spam systems (deduplication, honeypots, silent drop)
-- Clean Architecture — Domain / Service / Infrastructure separation
-- Structured logging & observability
-- Defensive programming & testable domain logic
-
----
-
-## 📌 Featured Projects
-
-### 🔹 [Portfolio Backend System](https://github.com/Argenis1412/portfolio)
-Backend system built to handle **real-world spam and abuse scenarios with layered defenses**.
-
-| Feature | Detail |
-|---|---|
-| 🛡️ Anti-spam | 30-min persistent deduplication + honeypots + silent drop |
-| ⚡ Rate limiting | Identity-based throttling via `slowapi` |
-| 📋 Observability | Structured logging with `structlog` |
-| 🏗️ Architecture | Clean Architecture — framework-independent core |
-| ✅ Quality gate | CI/CD with 70% test coverage enforcement |
-| 🐳 Infra | Docker + GitHub Actions + Koyeb / Vercel |
-
-`FastAPI` `Python 3.12` `SQLite` `SQLModel` `Alembic` `Docker` `React 19` `TypeScript` `TanStack Query`
-
-#### 🧠 Key Design Decisions
-
-- **Silent drop over explicit rejection** — Eliminates attacker feedback loops and reduces adaptive spam behavior.
-- **30-minute deduplication window** — Prevents burst spam while preserving legitimate retries.
-- **Framework-independent domain** — Business logic isolated from FastAPI, enabling fast and reliable unit testing.
-- **Honeypot strategy** — Zero UX cost, effective bot filtering.
-- **Structured logging from day one** — Ready for production observability stacks without refactoring.
-
----
-
-### 🔹 [Loja App — Payment System](https://github.com/Argenis1412/Loja_app)
-Payment engine focused on **deterministic financial calculations and explicit business rules**.
-
-| Feature | Detail |
-|---|---|
-| 💳 Payment modes | Cash, debit, credit 0% (2–6x), credit 10% (12–24x) |
-| 🔢 Precision | Deterministic totals — zero rounding drift |
-| 🏗️ Architecture | DDD — business logic fully isolated |
-| 🗄️ Persistence | Repository pattern + PostgreSQL + Alembic |
-| 🎨 Frontend | Strict API consumer (React + TypeScript) |
-| 🚀 Deploy | Render (API) + Vercel (UI) |
-
-`FastAPI` `Python 3.11` `PostgreSQL` `SQLAlchemy` `Alembic` `Pytest` `React` `TypeScript` `Vite` `Tailwind CSS`
-
-#### 🧠 Key Design Decisions
-
-- **Deterministic installment calculation** — Final payment absorbs rounding to guarantee exact totals.
-- **Domain-first design** — Business rules implemented in pure Python, not tied to ORM behavior.
-- **Repository abstraction** — Persistence layer fully decoupled from domain logic.
-- **Backend as source of truth** — Frontend contains no business logic, ensuring consistency and integrity.
-
----
-
-## 📫 Contact
+# 🚀 Argenis Lopez | Backend Engineer
 
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=1e293b&height=150&section=header&text=Building%20Resilient%20Backend%20Systems&fontSize=30&fontColor=ffffff&animation=fadeIn" width="100%" />
+</div>
 
-[![Email](https://img.shields.io/badge/Email-argenislopez28708256%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:argenislopez28708256@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Argenis_Lopez-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/argenis1412)
-[![GitHub](https://img.shields.io/badge/GitHub-Argenis1412-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Argenis1412)
+*I build backend systems that remain reliable under real-world conditions — not just ideal scenarios.*
 
+---
+
+## 👨‍💻 About Me
+
+I specialize in **Python backend development** with a strong focus on building APIs capable of handling **real-world constraints like abuse, edge cases, and high reliability**. I believe in engineering for production from day one—incorporating observability, defensive programming, and clean architecture.
+
+- 🏗️ Currently deepening knowledge in: **Cloud infrastructure, Caching strategies (Redis), and Authentication (JWT/OAuth2)**
+- 🚀 Deploying production-ready systems on **Koyeb, Vercel, and Render**
+- 🛡️ Passionate about **security hardening** and **Anti-spam architectures**
+
+---
+
+## 🛠️ Tech Stack & Arsenal
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,redis,docker,githubactions,sentry,react,ts&perline=10" />
+  </a>
+</div>
+
+**Core Focus:**
+- **Languages / Frameworks:** Python (3.11/3.12), FastAPI, Pydantic, SQLAlchemy, SQLModel
+- **Data & Caching:** PostgreSQL, SQLite, Redis (Upstash)
+- **DevOps & Observability:** Docker, GitHub Actions, Sentry, Prometheus
+- **Architecture:** Clean Architecture, DDD Basics, Test-Driven Development (Pytest)
+
+---
+
+## 📌 Featured Engineering Projects
+
+### 🛡️ [Graphite & Bronze: Production-Grade Portfolio Backend](https://github.com/Argenis1412/portfolio)
+*Not just a CRUD demo. A system built to simulate and survive real-world backend challenges.*
+
+| 🚀 Highlights | 🧠 Engineering Decisions |
+|:---|:---|
+| **JSON-First Read Path** for <50ms P95 latency | Read-heavy portfolio data bypasses the DB via in-memory cached JSON |
+| **Multi-Layer Anti-Abuse** | 30-min Redis deduplication window + Honeypots + Silent Drop to frustrate attackers |
+| **HTTP Caching (ETags)** | Zero-bandwidth revalidations with `304 Not Modified` |
+| **Observability Stack** | Integrated Sentry, Prometheus, and OpenTelemetry from day one |
+| **Quality Gates** | Hard CI/CD enforcing >80% test coverage and strict linting |
+
+_Tech: FastAPI, Redis, PostgreSQL, Structlog, Slowapi, Docker, Actions_
+
+
+### 💳 [Loja App: Payment Logic Laboratory](https://github.com/Argenis1412/Loja_app)
+*Payment engine strictly focused on deterministic financial calculations and clean boundaries.*
+
+| 🚀 Highlights | 🧠 Engineering Decisions |
+|:---|:---|
+| **Deterministic Installments** | Final payment absorbs any rounding drift to guarantee mathematically exact totals |
+| **Backend as Source of Truth** | UI simply consumes the API; 100% of calculation rules isolated in pure Python domain logic |
+| **Framework Independence** | Core rules are totally decoupled from SQLAlchemy/FastAPI |
+| **Explicit Rules** | Handles Cash, Debit, Credit (2-6x 0% interest), Credit (12-24x 10% interest) |
+
+_Tech: FastAPI, PostgreSQL, SQLAlchemy, Pytest, React, TypeScript_
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Argenis1412&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800" height="195" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Argenis1412&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800" height="195" alt="Top Languages" />
 </div>
 
 ---
 
+## 📫 Let's Connect
+
 <div align="center">
-  <sub>💡 <em>I build backend systems that remain reliable under real-world conditions — not just ideal scenarios.</em></sub>
+  <a href="mailto:argenislopez28708256@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/argenis1412">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/Argenis1412">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </div>
