@@ -1,88 +1,56 @@
-# 🚀 Argenis Lopez | Backend Engineer
+# Argenis Lopez | Backend Engineer & SRE Advocate
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=1e293b&height=150&section=header&text=Building%20Resilient%20Backend%20Systems&fontSize=30&fontColor=ffffff&animation=fadeIn" width="100%" />
-</div>
-
-*I build backend systems that remain reliable under real-world conditions — not just ideal scenarios.*
+I design systems to survive production.
 
 ---
 
-## 👨‍💻 About Me
+## Engineering Philosophy: Resilience by Design
+I specialize in building Cloud-Native Backend Systems where reliability, observability, and infrastructure are first-class citizens. My work is focused on:
 
-I specialize in **Python backend development** with a strong focus on building APIs capable of handling **real-world constraints like abuse, edge cases, and high reliability**. I believe in engineering for production from day one—incorporating observability, defensive programming, and clean architecture.
-
-- 🏗️ Currently deepening knowledge in: **Cloud infrastructure, Caching strategies (Redis), and Authentication (JWT/OAuth2)**
-- 🚀 Deploying production-ready systems on **Koyeb, Vercel, and Render**
-- 🛡️ Passionate about **security hardening** and **Anti-spam architectures**
+- **Chaos Engineering**: Automated weekly E2E failure simulations to verify system degradation and recovery.
+- **Evidence-Based SRE**: A public record of **9 real production incidents** with detailed post-mortems and resolutions.
+- **Clean Architecture**: Strict domain isolation to ensure logic remains independent of frameworks and infrastructure.
 
 ---
 
-## 🛠️ Tech Stack & Arsenal
+## Engineering Projects
 
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,redis,docker,githubactions,sentry,react,ts&perline=10" />
+### [Portfolio System: A Study in Resilience](https://github.com/Argenis1412/portfolio)
+*Production-grade environment built to demonstrate SRE principles under pressure.*
+
+- **Infrastructure as Code (IaC)**: Fully managed via Terraform with automated CI/CD provisioning.
+- **Observability Stack**: Prometheus + Sentry + OpenTelemetry for full system transparency and honest telemetry.
+- **JSON-First Read Path**: Reduced P95 latency from ~320ms to **<50ms** while eliminating DB as a single point of failure.
+- **Multi-Layer Anti-Abuse**: Honeypots + Redis-backed Rate Limiting + Idempotency keys as architectural standards.
+
+### [Loja App: Payment Logic Laboratory](https://github.com/Argenis1412/Loja_app)
+*Payment engine focused on deterministic financial calculations and pure Domain-Driven Design (DDD).*
+
+- **Deterministic Financials**: Logic guarantees mathematically exact totals by absorbing rounding drift in final installments.
+- **Pure Domain**: 100% decoupling of business rules from infrastructure (SQLAlchemy/FastAPI).
+
+---
+
+## Tech Stack & Arsenal
+- **Core**: Python (3.12), FastAPI, Pydantic V2, structlog.
+- **Data & Resilience**: PostgreSQL, Redis (Upstash), Circuit Breakers, Idempotency Stores.
+- **SRE & DevOps**: Terraform, GitHub Actions, Docker, Prometheus, Grafana, Sentry.
+- **Validation**: Pytest (Resilience + Chaos), k6 (SLO Benchmarking).
+
+---
+
+## Contact & Links
+<div align="left">
+  <a href="https://argenisbackend.com">
+    <img src="https://img.shields.io/badge/Portfolio-argenisbackend.com-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
-</div>
-
-**Core Focus:**
-- **Languages / Frameworks:** Python (3.11/3.12), FastAPI, Pydantic, SQLAlchemy, SQLModel
-- **Data & Caching:** PostgreSQL, SQLite, Redis (Upstash)
-- **DevOps & Observability:** Docker, GitHub Actions, Sentry, Prometheus
-- **Architecture:** Clean Architecture, DDD Basics, Test-Driven Development (Pytest)
-
----
-
-## 📌 Featured Engineering Projects
-
-### 🛡️ [Graphite & Bronze: Production-Grade Portfolio Backend](https://github.com/Argenis1412/portfolio)
-*Not just a CRUD demo. A system built to simulate and survive real-world backend challenges.*
-
-| 🚀 Highlights | 🧠 Engineering Decisions |
-|:---|:---|
-| **JSON-First Read Path** for <50ms P95 latency | Read-heavy portfolio data bypasses the DB via in-memory cached JSON |
-| **Multi-Layer Anti-Abuse** | 30-min Redis deduplication window + Honeypots + Silent Drop to frustrate attackers |
-| **HTTP Caching (ETags)** | Zero-bandwidth revalidations with `304 Not Modified` |
-| **Observability Stack** | Integrated Sentry, Prometheus, and OpenTelemetry from day one |
-| **Quality Gates** | Hard CI/CD enforcing >80% test coverage and strict linting |
-
-_Tech: FastAPI, Redis, PostgreSQL, Structlog, Slowapi, Docker, Actions_
-
-
-### 💳 [Loja App: Payment Logic Laboratory](https://github.com/Argenis1412/Loja_app)
-*Payment engine strictly focused on deterministic financial calculations and clean boundaries.*
-
-| 🚀 Highlights | 🧠 Engineering Decisions |
-|:---|:---|
-| **Deterministic Installments** | Final payment absorbs any rounding drift to guarantee mathematically exact totals |
-| **Backend as Source of Truth** | UI simply consumes the API; 100% of calculation rules isolated in pure Python domain logic |
-| **Framework Independence** | Core rules are totally decoupled from SQLAlchemy/FastAPI |
-| **Explicit Rules** | Handles Cash, Debit, Credit (2-6x 0% interest), Credit (12-24x 10% interest) |
-
-_Tech: FastAPI, PostgreSQL, SQLAlchemy, Pytest, React, TypeScript_
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Argenis1412&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800" height="195" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Argenis1412&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800" height="195" alt="Top Languages" />
-</div>
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
+  <a href="https://www.linkedin.com/in/argenis1412/">
+    <img src="https://img.shields.io/badge/LinkedIn-argenis1412-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://wa.me/5541995103364">
+    <img src="https://img.shields.io/badge/WhatsApp-Contact-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
   <a href="mailto:argenislopez28708256@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/argenis1412">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/Argenis1412">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/Email-argenislopez-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
