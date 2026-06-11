@@ -50,39 +50,14 @@ I specialize in building Cloud-Native Backend Systems where reliability, observa
 
 ---
 
-## Production Debugging Flowchart
-
-```mermaid
-flowchart TD
-    A[Alert fires at 3 AM] --> B{Check logs?}
-    B -->|Yes| C[Find nothing useful]
-    B -->|No| D[Reboot everything]
-    C --> E{Check metrics?}
-    E -->|Yes| F[Notice it's been broken for 3 days]
-    E -->|No| G[Blame network]
-    F --> H["Ah, it was the deploy last Friday"]
-    D --> H
-    G --> H
-    H --> I[Rollback]
-    I --> J[Write post-mortem]
-    J --> K["Root cause: I forgot to run the migration"]
-    K --> L[Add migration to CI/CD]
-    L --> M[Sleep for 4 hours]
-    M --> N[Wait for next alert]
-```
-
 ## GitHub Analytics
 
 <a href="https://github.com/Argenis1412">
-  <img height=180 align="center" src="https://github-readme-stats.vercel.app/api?username=Argenis1412&show_icons=true&include_all_commits=true&theme=dark" />
+  <img height=170 align="center" src="https://github-readme-stats.vercel.app/api?username=Argenis1412&show_icons=true&include_all_commits=true&theme=dark" />
 </a>
 <a href="https://github.com/Argenis1412">
-  <img height=180 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Argenis1412&layout=compact&langs_count=8&theme=dark" />
+  <img height=170 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Argenis1412&layout=compact&langs_count=8&card_width=430&theme=dark" />
 </a>
-<br>
-<br>
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Argenis1412&theme=onedark&column=5&no-frame=false&margin-w=5)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
