@@ -1,37 +1,43 @@
-# Argenis Lopez | Backend Engineer & SRE Advocate
+# Argenis Lopez — Backend Engineer & SRE
 
 I design systems to survive production.
 
 ---
 
-## Engineering Philosophy: Resilience by Design
-I specialize in building Cloud-Native Backend Systems where reliability, observability, and infrastructure are first-class citizens. My work is focused on:
+## Focus
 
-- **Chaos Engineering**: Automated weekly E2E failure simulations to verify system degradation and recovery.
-- **Evidence-Based SRE**: A public record of **9 real production incidents** with detailed post-mortems and resolutions.
-- **Clean Architecture**: Strict domain isolation to ensure logic remains independent of frameworks and infrastructure.
+Backend systems where **reliability, observability, and safety** are first-class concerns — not afterthoughts.
 
----
-
-## Engineering Projects
-
-### [Portfolio System: A Study in Resilience](https://github.com/Argenis1412/portfolio)
-*Production-grade environment built to demonstrate SRE principles under pressure.*
-
-- **Infrastructure as Code (IaC)**: Fully managed via Terraform with automated CI/CD provisioning.
-- **Observability Stack**: Prometheus + Sentry + OpenTelemetry for full system transparency and honest telemetry.
-- **JSON-First Read Path**: Reduced P95 latency from ~320ms to **<50ms** while eliminating DB as a single point of failure.
-- **Multi-Layer Anti-Abuse**: Honeypots + Redis-backed Rate Limiting + Idempotency keys as architectural standards.
-
-### [Loja App: Payment Logic Laboratory](https://github.com/Argenis1412/Loja_app)
-*Payment engine focused on deterministic financial calculations and pure Domain-Driven Design (DDD).*
-
-- **Deterministic Financials**: Logic guarantees mathematically exact totals by absorbing rounding drift in final installments.
-- **Pure Domain**: 100% decoupling of business rules from infrastructure (SQLAlchemy/FastAPI).
+- **AI-Assisted Engineering**: Building tooling that makes LLM-generated code auditable and safe to apply in production.
+- **Cloud-Native SRE**: Automated failure simulations, structured post-mortems, and evidence-based incident response.
+- **Clean Architecture**: Domain logic isolated from frameworks, databases, and transport layers.
 
 ---
 
-## Tech Stack & Arsenal
+## Projects
+
+### [PatchForge](https://github.com/Argenis1412/PatchForge)
+*Git-native refactoring engine. Generate, validate, and apply code patches safely.*
+
+The core problem: AI-generated code reaches production without deterministic validation. PatchForge enforces a structured pipeline — `scan → plan → preview → validate → apply` — where every change is reviewed as a diff, tested against a real suite, and applied atomically with rollback support.
+
+- 546 tests across the full lifecycle
+- Ruff + Pytest gates before any file is touched
+- Persistent artifacts (`plan.json`, `patch.diff`, `validation.json`) for auditability
+
+### [Portfolio System](https://github.com/Argenis1412/portfolio)
+*Production environment built around SRE principles.*
+
+- Infrastructure as Code via Terraform
+- Observability stack: Prometheus + Sentry + OpenTelemetry
+- P95 read latency under 50ms via JSON-first path
+
+### [Loja App](https://github.com/Argenis1412/Loja_app)
+*Payment engine with deterministic financial logic and Domain-Driven Design.*
+
+---
+
+## Stack
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -44,13 +50,7 @@ I specialize in building Cloud-Native Backend Systems where reliability, observa
 
 ---
 
-## The Production Mantra
-
-> "If it ain't broken, it's just a latent bug waiting for a Friday deploy. If it IS broken, it's probably DNS."
-
----
-
-## GitHub Analytics
+## GitHub
 
 <a href="https://github.com/Argenis1412">
   <img height=170 align="center" src="https://github-readme-stats.vercel.app/api?username=Argenis1412&show_icons=true&include_all_commits=true&theme=dark" />
@@ -61,18 +61,16 @@ I specialize in building Cloud-Native Backend Systems where reliability, observa
 
 ---
 
-## Contact & Links
+## Contact
+
 <div align="left">
   <a href="https://argenisbackend.com">
-    <img src="https://img.shields.io/badge/Portfolio-argenisbackend.com-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-argenisbackend.com-000000?style=flat-square&logo=vercel&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/argenis1412/">
-    <img src="https://img.shields.io/badge/LinkedIn-argenis1412-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-argenis1412-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://wa.me/5541995103364">
-    <img src="https://img.shields.io/badge/WhatsApp-Contact-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-  </a>
-  <a href="mailto:argenislopez28708256@gmail.com">
-    <img src="https://img.shields.io/badge/Email-argenislopez-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:argenisbackend@gmail.com">
+    <img src="https://img.shields.io/badge/Email-argenisbackend@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
 </div>
