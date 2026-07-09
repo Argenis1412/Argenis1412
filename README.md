@@ -1,63 +1,31 @@
-# Argenis Lopez — Backend Engineer & SRE
+# Argenis Lopez — Backend Engineer
 
-I design systems to survive production.
-
----
-
-## Focus
-
-Backend systems where **reliability, observability, and safety** are first-class concerns — not afterthoughts.
-
-- **AI-Assisted Engineering**: Building tooling that makes LLM-generated code auditable and safe to apply in production.
-- **Cloud-Native SRE**: Automated failure simulations, structured post-mortems, and evidence-based incident response.
-- **Clean Architecture**: Domain logic isolated from frameworks, databases, and transport layers.
-
+Backend systems built for reliability, observability, and production safety.
 ---
 
 ## Projects
 
 ### [PatchForge](https://github.com/Argenis1412/PatchForge)
-*Git-native refactoring engine. Generate, validate, and apply code patches safely.*
+Git-native refactoring engine — AI proposes, PatchForge validates, humans decide. +700 tests, V1 stable.
 
-The core problem: AI-generated code reaches production without deterministic validation. PatchForge enforces a structured pipeline — `scan → plan → preview → validate → apply` — where every change is reviewed as a diff, tested against a real suite, and applied atomically with rollback support.
-
-- 546 tests across the full lifecycle
-- Ruff + Pytest gates before any file is touched
-- Persistent artifacts (`plan.json`, `patch.diff`, `validation.json`) for auditability
-
-### [Portfolio System](https://github.com/Argenis1412/portfolio)
-*Production environment built around SRE principles.*
-
-- Infrastructure as Code via Terraform
-- Observability stack: Prometheus + Sentry + OpenTelemetry
-- P95 read latency under 50ms via JSON-first path
+### [Portfolio](https://github.com/Argenis1412/portfolio)
+Cloud-Native SRE portfolio. FastAPI + React 19, Terraform IaC, weekly chaos engineering.
 
 ### [Loja App](https://github.com/Argenis1412/Loja_app)
-*Payment engine with deterministic financial logic and Domain-Driven Design.*
+Payment system with deterministic financial logic. 4 payment modes, idempotency keys, Clean Architecture.
 
 ---
 
 ## Stack
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-05998B?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<div align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-05998B?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 </div>
-
----
-
-## GitHub
-
-<a href="https://github.com/Argenis1412">
-  <img height=170 align="center" src="https://github-readme-stats.vercel.app/api?username=Argenis1412&show_icons=true&include_all_commits=true&theme=dark" />
-</a>
-<a href="https://github.com/Argenis1412">
-  <img height=170 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Argenis1412&layout=compact&langs_count=8&card_width=430&theme=dark" />
-</a>
 
 ---
 
