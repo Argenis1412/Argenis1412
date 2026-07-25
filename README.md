@@ -16,32 +16,13 @@
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,terraform,docker,kubernetes,aws,gcp,prometheus,grafana&perline=10" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=py,fastapi,ts,react,postgres,terraform,docker,kubernetes,aws,gcp,prometheus,grafana&perline=12" alt="Tech Stack" />
 </div>
 
 <br/>
 
 ## 🚀 Featured Projects
 
-| 🛡️ [PatchForge](https://github.com/Argenis1412/PatchForge) | 🌐 [Cloud-Native Portfolio](https://github.com/Argenis1412/portfolio) | 💳 [Loja App](https://github.com/Argenis1412/Loja_app) |
+| 🛡️ [PatchForge](https://github.com/Argenis1412/PatchForge) | 💳 [Loja App](https://github.com/Argenis1412/Loja_app) | 🌐 [Portfolio](https://github.com/Argenis1412/portfolio) |
 | :--- | :--- | :--- |
-| **Git-native refactoring engine.** AI proposes, PatchForge validates, humans decide. Features +900 tests and a stable V1 architecture. | **My SRE playground.** Built with FastAPI + React 19, Terraform IaC, and weekly chaos engineering experiments. | **Deterministic payment system.** Supports 4 payment modes, idempotency keys, and strict Clean Architecture. |
-
-<br/>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Argenis1412&theme=tokyonight" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Argenis1412&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="48%" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Argenis1412&theme=tokyonight" alt="Top Languages" width="48%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=05998B&height=100&section=footer" alt="Footer" />
-</div>
+| **AI-powered, safety-first code modification tool.** Deterministic Plan → Preview → Validate → Apply pipeline. +1000 tests, ruff clean, Docker support. Currently in **P4 — Trust & Configuration** phase (v1.1.0). | **Payment system laboratory.** FastAPI + React + TypeScript. Clean Architecture with 4 payment modes, idempotency keys, API versioning, and 94% test coverage (v1.1.0). | **SRE playground.** FastAPI + React 19, Terraform IaC, and weekly chaos engineering experiments. |
