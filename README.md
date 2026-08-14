@@ -1,33 +1,35 @@
 <div align="center">
-  
-  <h3>AI Engineer</h3>
-  <p><em>Building LLM systems for retrieval, evals, and production safety.</em></p>
+
+  <h3>AI/LLM Integration Engineer | Backend Python</h3>
+  <p><em>I build software that connects LLM APIs to deterministic, testable, and reviewable engineering workflows.</em></p>
 
   <p>
-    <a href="https://argenisbackend.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://www.linkedin.com/in/argenis1412/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:argenisbackend@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://argenisbackend.com">Portfolio</a> ·
+    <a href="https://www.linkedin.com/in/argenis1412/">LinkedIn</a> ·
+    <a href="mailto:argenisbackend@gmail.com">Email</a>
   </p>
 </div>
 
-<br/>
+## What I build
 
-## Tech Stack
+- LLM integrations and multi-agent workflows with Gemini, Claude, and OpenRouter.
+- Backend systems with Python, FastAPI, PostgreSQL, Redis, and typed Pydantic contracts.
+- Reliable delivery with deterministic validation, human approval, automated tests, CI/CD, and observability.
 
-| AI / LLM | Backend | Reliability |
-| :--- | :--- | :--- |
-| Claude & OpenAI APIs, RAG, embeddings, agents/MCP | Python, FastAPI, TypeScript, Postgres | Docker, Kubernetes, Terraform, Prometheus/Grafana |
+## Featured work
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,ts,postgres,docker,kubernetes,terraform,aws,gcp,prometheus,grafana&perline=12" alt="Tech Stack" />
-</div>
+### [PatchForge](https://github.com/Argenis1412/PatchForge)
 
-<br/>
+An individual open-source LLM code-modification engine. It coordinates Scout, Architect, Executor, and Validator agents through a `Plan -> Preview -> Validate -> Apply` workflow. Provider routing, fallbacks, typed contracts, Git-native artifacts, and 1,100+ automated tests keep AI-generated changes inspectable before they are applied.
 
-## Featured Projects
+### [Portfolio System](https://github.com/Argenis1412/portfolio)
 
-| 🛡️ [PatchForge](https://github.com/Argenis1412/PatchForge) | 🌐 [Portfolio](https://github.com/Argenis1412/portfolio) |
-| :--- | :--- |
-| **AI-powered, safety-first code modification tool.** Deterministic Plan → Preview → Validate → Apply pipeline. +1000 tests, ruff clean, Docker support. Currently in **P4 — Trust & Configuration** phase (v1.1.0). | **SRE playground.** FastAPI + React 19, Terraform IaC, and weekly chaos engineering experiments. |
+A production-oriented FastAPI and React platform with PostgreSQL, Redis Streams, rate limiting, idempotency, retries, observability, SLOs, Docker, Terraform, and GitHub Actions.
 
-Also: [Loja App](https://github.com/Argenis1412/Loja_app), a simple payment backend laboratory (FastAPI + React + TypeScript).
+### [Loja App](https://github.com/Argenis1412/Loja_app)
+
+A payment backend laboratory focused on Clean Architecture, exact financial rules, idempotency, migrations, and automated testing.
+
+## Core stack
+
+`Python` `FastAPI` `Pydantic` `LLM APIs` `Multi-Agent Systems` `PostgreSQL` `Redis` `Redis Streams` `Docker` `Terraform` `GitHub Actions` `Pytest` `OpenTelemetry` `Prometheus` `Sentry`
