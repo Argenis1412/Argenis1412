@@ -20,7 +20,7 @@
 
 ### [Housing Finance GPS](https://github.com/Argenis1412/housing-finance-gps)
 
-A deterministic Brazilian housing decision engine comparing SAC/Price financing, consortium scenarios, and renting. Pure Python domain with exact monetary arithmetic, centavo-safe settlement, versioned replay evaluators (v1–v3), Hypothesis property testing, 95%+ branch coverage, and a typed FastAPI calculation API.
+A deterministic Brazilian housing decision engine comparing SAC/Price financing, consortium scenarios, and renting. Built as a modular monolith with a pure Python domain (Clean Architecture principles), exact monetary arithmetic, centavo-safe settlement, versioned replay evaluators (v1–v3), Hypothesis property testing, 95%+ branch coverage, and a typed FastAPI calculation API.
 
 ### [PatchForge](https://github.com/Argenis1412/PatchForge)
 
