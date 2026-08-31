@@ -18,18 +18,22 @@
 
 ## Featured work
 
+### [Housing Finance GPS](https://github.com/Argenis1412/housing-finance-gps)
+
+A deterministic Brazilian housing decision engine comparing SAC/Price financing, consortium scenarios, and renting. Pure Python domain with exact monetary arithmetic, centavo-safe settlement, versioned replay evaluators (v1–v3), Hypothesis property testing, 95%+ branch coverage, and a typed FastAPI calculation API.
+
 ### [PatchForge](https://github.com/Argenis1412/PatchForge)
 
-An individual open-source LLM code-modification engine. It coordinates Scout, Architect, Executor, and Validator agents through a `Plan -> Preview -> Validate -> Apply` workflow. Provider routing, fallbacks, typed contracts, Git-native artifacts, and 1,100+ automated tests keep AI-generated changes inspectable before they are applied.
+An open-source LLM code-modification engine coordinating Scout, Architect, Executor, and Validator agents via `Plan -> Preview -> Validate -> Apply`. Features provider routing (Gemini/Claude/OpenRouter), typed Pydantic contracts, Git-native artifacts, and 1,100+ automated tests.
 
 ### [Portfolio System](https://github.com/Argenis1412/portfolio)
 
-A production-oriented FastAPI and React platform with PostgreSQL, Redis Streams, rate limiting, idempotency, retries, observability, SLOs, Docker, Terraform, and GitHub Actions.
+A production-grade FastAPI platform featuring Redis Streams event processing, rate limiting, idempotency, OpenTelemetry tracing, Prometheus metrics, Sentry error tracking, SLOs, Docker, and Terraform.
 
 ### [Loja App](https://github.com/Argenis1412/Loja_app)
 
-A payment backend laboratory focused on Clean Architecture, exact financial rules, idempotency, migrations, and automated testing.
+A resilient payment backend built with Clean Architecture, isolated domain rules, transaction idempotency, soft-delete auditability, and automated CI/CD pipelines.
 
 ## Core stack
 
-`Python` `FastAPI` `Pydantic` `LLM APIs` `Multi-Agent Systems` `PostgreSQL` `Redis` `Redis Streams` `Docker` `Terraform` `GitHub Actions` `Pytest` `OpenTelemetry` `Prometheus` `Sentry`
+`Python` `FastAPI` `Pydantic` `LLM APIs` `Multi-Agent Systems` `PostgreSQL` `Redis` `Redis Streams` `Docker` `Terraform` `GitHub Actions` `Pytest` `Hypothesis` `OpenTelemetry` `Prometheus`
